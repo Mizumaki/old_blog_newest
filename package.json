@@ -1,0 +1,11 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Mizumaki/blog.git",
+  "author": "Mizumaki <statham.programming@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^8.4.2"
+  }
+}
