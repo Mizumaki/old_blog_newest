@@ -1,0 +1,10 @@
+{
+  "verbose": true,
+  "exec": "ts-node ./server/index.ts",
+  "watch": ["./server"],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "ts json",
+  "quiet": true
+}
