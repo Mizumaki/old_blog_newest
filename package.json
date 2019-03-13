@@ -6,13 +6,14 @@
   "author": "Mizumaki <statham.programming@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "build": "ts-node --project client/tsconfig.json client/src/pages/index.tsx"
   },
   "dependencies": {
     "koa": "^2.7.0",
     "koa-router": "^7.4.0",
     "preact": "^8.4.2",
-    "preact-render-to-string": "^5.0.0"
+    "preact-render-to-string": "4.1.0"
   },
   "devDependencies": {
     "@types/koa": "^2.0.48",
